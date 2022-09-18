@@ -149,7 +149,6 @@ text-decoration: none;
   margin: auto 0;
 }
 
-
 .header_text {
   font-size: 36px;
   font-family: 'Raleway', sans-serif;
@@ -311,23 +310,21 @@ text-decoration: none;
 }
 
 .project_img {
-  height: 460px;
-  max-width: fit-content;
+  width: 600px;
+  height: 600px;
+  object-fit: contain;
   box-shadow: 2px 4px 8px 1px #080708;
   overflow:hidden;
   margin: 0 auto;
-
+  background-color: #080708;
 }
 
 .project_card {
   overflow:hidden;
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content:left;
   padding: 20px;
-  text-align: center;
 }
+
 
 .project_title {
   font-size: 28px;
@@ -336,8 +333,22 @@ text-decoration: none;
   text-transform: uppercase;
   background-color: #080708;
   color: #FFFFFF;
-  margin: 0 auto;
   margin-bottom: 20px;
   padding: 4px;
   width: fit-content;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden scroll;
+}
+
+.project_text {
+  padding-bottom: 20px ;
+  background-color: #FFFFFF;
+  border: 0 1px 1px 1px solid #080708;
+  color: #080708;
+  line-height: 160%;
+  font-size: 18px;
 }
