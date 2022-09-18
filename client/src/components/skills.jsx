@@ -1,10 +1,9 @@
 const Skills = () => {
   return (
     <div>
-      <a id="anchor_skills"></a>
       <br></br>
       <div className="skills">
-        <h1 className="title_text">Skills</h1>
+        <h1 className="title_text"><a id="anchor_skills"></a>Skills</h1>
         <h1 className="about_title">Front End</h1>
         <div className="content_list">
           <p>JavaScript</p>

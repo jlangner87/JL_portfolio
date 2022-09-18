@@ -53,7 +53,7 @@ body {
   width: 75%;
   box-shadow: 2px 4px 8px 1px #080708;
   margin-left: 60px;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .skills {
@@ -63,7 +63,7 @@ body {
   width: 75%;
   box-shadow: 2px 4px 8px 1px #080708;
   margin-left: 60px;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 
 .contact {
@@ -73,7 +73,7 @@ body {
   width: 75%;
   box-shadow: 2px 4px 8px 1px #080708;
   margin-left: 60px;
-  margin-top: 60px;
+  margin-top: 10px;
   margin-bottom: 400px;
 }
 
@@ -90,7 +90,7 @@ body {
   width: 75%;
   box-shadow: 2px 4px 8px 1px #080708;
   margin-left: 60px;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 
 .footer {
@@ -213,7 +213,6 @@ text-decoration: none;
   padding-left: 20px;
   padding-bottom: 20px ;
   background-color: #FFFFFF;
-  border: 0 1px 1px 1px solid #080708;
   color: #080708;
   line-height: 160%;
   font-size: 18px;
@@ -320,9 +319,9 @@ text-decoration: none;
 }
 
 .project_card {
-  overflow:hidden;
   justify-content:left;
   padding: 20px;
+
 }
 
 
@@ -338,17 +337,31 @@ text-decoration: none;
   width: fit-content;
 }
 
+.scroll_instruction {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: #080708;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  padding: 4px;
+
+}
+
 .carousel {
   display: flex;
   flex-direction: row;
-  overflow: hidden scroll;
+  overflow-x: auto;
+
 }
 
 .project_text {
   padding-bottom: 20px ;
   background-color: #FFFFFF;
-  border: 0 1px 1px 1px solid #080708;
   color: #080708;
   line-height: 160%;
   font-size: 18px;
+  width: 60%;
+  text-indent: 30px;
 }
