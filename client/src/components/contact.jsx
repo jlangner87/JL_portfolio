@@ -2,7 +2,7 @@ import github from '../assets/GitHub.png'
 import email from '../assets/email.png'
 import linkedin from '../assets/LinkedIn.png'
 import resume from '../assets/resume.png'
-import pdf from '../assets/Joshua_Langner_resume.pdf'
+import pdf from '../assets/Joshua_Langner.pdf'
 
 const Contact = () => {
   return (
