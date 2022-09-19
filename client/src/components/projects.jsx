@@ -44,7 +44,7 @@ const Projects = () => {
           <p className='project_text'>It is probably unconventional to showcase the portfolio in the portfolio. But I feel like this project is where I display myself the most. And I want to take a moment to celebrate that.</p>
           <p className='project_text'>When I started this project, I thought about using a template, just to get it up and running. Instead, challenged myself to create something beautiful with raw CSS.</p>
           <a className='project_item' href='https://joshua-langner.netlify.app/'>&#123;Deployed Site&#125;</a><br/>
-          <a className='project_item' href='https://github.com/jlangner87/roaster_roster_client'>&#123;Code Repo&#125;</a><br/>
+          <a className='project_item' href='https://github.com/jlangner87/JL_portfolio'>&#123;Code Repo&#125;</a><br/>
         </div>
         </div>
         <h1 className='scroll_instruction'>Scroll for more > > ></h1>

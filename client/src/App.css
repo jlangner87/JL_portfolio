@@ -210,12 +210,13 @@ text-decoration: none;
 }
 
 .content_text {
-  padding-left: 20px;
+  padding-left: 40px;
   padding-bottom: 20px ;
   background-color: #FFFFFF;
   color: #080708;
   line-height: 160%;
   font-size: 18px;
+  width: 90%;
 }
 
 .content_list {
