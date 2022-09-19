@@ -23,9 +23,10 @@ const About = () => {
 
 
       <h1 className="about_title">On a personal note...</h1>
-      <p className="content_text">
-        Who am I as a person? What makes me tick? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque nec ante et sagittis. Cras ultricies, turpis eget egestas ultricies, eros lacus suscipit orci, sed lobortis magna nisl fermentum lacus. Mauris sit amet imperdiet dui. Sed et tincidunt metus. Vivamus facilisis justo nisi, ut viverra turpis hendrerit non. Suspendisse vitae odio sit amet sem convallis condimentum non sed justo. Donec quis mi sem. Nam porta sagittis consectetur.  
-      </p>
+      <p className="content_text">I am a husband to a beautiful wife and father of three wild kids. My family and I live in northwest Iowa, where I am heavily involved in the local community.</p>
+      <p className="content_text">Aside from tech, my other passion is theater. I am a playwright, director, and actor. It is a fun and rewarding process, but it also builds so many transferrable skills. In theater, I have learned the value of working with a diverse group to deliver the best results possible; the importance of everyone bringing their best to their own areas of responsibility; the process of taking an abstract concept and transforming it into a tangible product for the audience to enjoy.</p>
+      <p className="content_text">Personal Values<br/><em>Willingness to Learn</em> &nbsp; | &nbsp; <em>Continuous Improvement</em> &nbsp; | &nbsp; <em>Collaboration</em> &nbsp; | &nbsp; <em>Openness</em> &nbsp; | &nbsp; <em>Honesty</em> &nbsp; | &nbsp; <em>Integrity</em>
+</p>
     </div>
     </div>
   )

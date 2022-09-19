@@ -15,7 +15,7 @@ const Skills = () => {
         </div>
       <h1 className="about_title">Back End</h1>
       <div className="content_list"> 
-      <p>MondoDB</p>
+          <p>MondoDB</p>
           <p>PostgreSQL</p>
           <p>Sequelize</p>
           <p>Django</p>
@@ -23,6 +23,7 @@ const Skills = () => {
           <p>Express</p>
           <p>Node.js</p>
           <p>RESTful API</p>
+          <p>JWT Authentication</p>
         </div>
         <h1 className="about_title">Other Tech Skills</h1>
         <div className="content_list"> 
