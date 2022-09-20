@@ -41,14 +41,16 @@ const Skills = () => {
           <p>Project Planning</p>
           <p>Sales Effectiveness</p>
           <p>Client Relations</p>
-          <p>Crossfunctional-Collaboration</p>
-          <p>Impactful Communication</p>
+          <p>Navigating Change</p>
+          <p>Developing Talent</p>
+          <p>Public Speaking</p>
+          <p>Dynamic Coaching</p>
         </div>
         <h1 className="about_title">Current Skill Development</h1>
         <div className="content_list"> 
-          <p>New Skill: C++</p>
-          <p>New Skill: Tailwind</p>
-          <p>Strengthening: Python </p>
+          <p>C++</p>
+          <p>Tailwind</p>
+          <p>Python </p>
         </div>
         </div>
     </div>
