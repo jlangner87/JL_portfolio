@@ -7,6 +7,7 @@ const Nav = () => {
         <a href="#anchor_about">About</a>
         <a href="#anchor_skills">Skills</a>
         <a href="#anchor_projects">Projects</a>
+        <a href="#anchor_octopus">Values</a>
         <a href="#anchor_contact">Contact</a>
         <a href="#anchor_top">Top</a>
       </div>  

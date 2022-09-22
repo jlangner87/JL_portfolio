@@ -66,6 +66,16 @@ body {
   margin-top: 10px;
 }
 
+.octopus {
+  background-color: #FFFFFF;
+  color: #f1ecf7;
+  left: 0;
+  width: 75%;
+  box-shadow: 2px 4px 8px 1px #080708;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
 .contact {
   background-color: #FFFFFF;
   color: #f1ecf7;
@@ -233,6 +243,36 @@ text-decoration: none;
   line-height: 160%;
   font-size: 18px;
   width: 90%;
+}
+.content_text2 {
+  padding-left: 40px;
+  padding-bottom: 20px ;
+  background-color: #FFFFFF;
+  color: #080708;
+  line-height: 160%;
+  font-size: 18px;
+  width: 90%;
+}
+
+.octo_container {
+  text-align: center;
+  width: 100%;
+}
+
+.logo2 {
+  width: 300px;
+  margin-top: -90px;
+  margin-bottom: -90px;
+}
+
+.octo_text {
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #080708;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  border-bottom: 1px solid #080708
 }
 
 .content_list {
@@ -438,10 +478,30 @@ text-decoration: none;
 }
 
 .values {
-  text-align: center;
   background-color: #080708;
   color: #FFFFFF;
-  font-size: 16px;
-  padding-top: 1px;
-  padding-bottom: 1px;
+  text-align: center;
+}
+
+.value_header{
+  padding-left: 40px;
+  padding-top: 10px;
+  background-color: #080708;
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  width: 90%;
+}
+
+.content_text3{
+  padding-left: 40px;
+  padding-bottom: 20px ;
+  background-color: #080708;
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 90%;
+  line-height: 190%;
 }
