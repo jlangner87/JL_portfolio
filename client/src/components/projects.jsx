@@ -19,7 +19,7 @@ const Projects = () => {
           <p className='project_text'>The PSQL database with 4 models and 14 express routes delivering full crud operations to the user.</p>
           <p className='project_text_footnote'>Be sure to check back and see where WikiBean is going. This is a passion project and will continue to evolve as I sharpen my existing skills and learn new ones.</p>
           <p className='project_text_footnote'>I am currently looking for a new hosting service to replace Heroku for the backend of this project. Please view the demo below to see the full functionality of this application.</p>
-          <a className='project_item' href='https://wikibean.netlify.app/'>&#123;Demo&#125;</a><br/>
+          <a className='project_item' href='https://youtu.be/Vz6ppOBLPCg'>&#123;Demo&#125;</a><br/>
           <a className='project_item' href='https://wikibean.netlify.app/'>&#123;Deployed Site&#125;</a><br/>
           <a className='project_item' href='https://github.com/jlangner87/roaster_roster_client'>&#123;Code Repo&#125;</a><br/>
         </div>
