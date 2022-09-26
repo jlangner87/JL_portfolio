@@ -112,7 +112,6 @@ body {
 .footer {
   position: absolute;
   width: 100%;
-  /* background-color: #282C35; */
   background-color: #FFFFFF;
   text-align: center;
   display: flex;
@@ -136,7 +135,6 @@ body {
 }
 
 .footer_text {
-  /* color: #f1ecf7; */
   color: #282C35;
   font-family: 'Playfair Display';
   font-size: 14px;
@@ -145,7 +143,6 @@ body {
 
 .copyright {
   color: #282C35;
-  /* color: #f1ecf7; */
   font-family: 'Playfair Display';
   font-size: 12px;
   margin-top: -35px;
@@ -153,7 +150,6 @@ body {
   font-style: italic;
 }
 .credits_text {
-  /* color: #f1ecf7; */
   color: #282C35;
   font-size: 14px;
   font-family: 'Playfair Display';
@@ -161,7 +157,6 @@ body {
 
 .credits_link {
   color: #282C35;
-  /* color: #f1ecf7; */
   font-family: 'Playfair Display';
   font-size: 14px;
   margin-top: -35px;
@@ -174,7 +169,6 @@ text-decoration: none;
 }
 
 .credits_link a:visited {
-  /* color: #f1ecf7; */
   color: #282C35;
 }
 
@@ -321,6 +315,7 @@ text-decoration: none;
 
 .sidenav_bar {
   position: fixed;
+  
 }
 
 .nav a {
@@ -329,18 +324,18 @@ text-decoration: none;
   font-size: 22px;
   display: block;
   background-color:#282C35;
-  padding: 4px;
-  margin: 52px 0 0 -20px;
-  width: 72px;
-  text-align: center;
+  margin: 52px 0 0 -55px;
+  width: 120px;
+  text-align: left;
   box-shadow: 6px 4px 20px -5px #282C35;
-
+  padding-bottom: 2px;
 }
+
 
 .nav a:hover {
   box-shadow: 6px 4px 20px -5px #400057;
   font-size: 23px;
-  width:72px;
+  width:120px;
   padding: 5px;
   background-color: #FFFFFF;
   color:#282C35
@@ -517,4 +512,9 @@ text-decoration: none;
   text-transform: uppercase;
   width: 90%;
   line-height: 190%;
+}
+
+.nav_icon {
+  width: 24px;
+  padding-top: 6px;
 }
