@@ -4,7 +4,7 @@ const Octopus = () => {
     <div>
       <br></br>
       <div className="octopus">
-        <h1 className="title_text"><a id="anchor_octopus"></a>The Octopus</h1>
+        <h1 className="title_text"><a id="anchor_octopus"></a>Values & Ethics</h1>
         <h1 className="about_title">The Ethos of the Octopus...</h1>
         <p className="content_text"> <em>What is up with the octopus logo?</em><br/>
           The octopus is a beautifully fascinating animal. At the core of this magestic beast are the pillars of my personal philosophy on engineering, work, and just all of live in general.</p>
