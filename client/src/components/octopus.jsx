@@ -1,4 +1,4 @@
-import logo from "../assets/black_logo.png"
+import logo from "../assets/values_octo.png"
 const Octopus = () => {
   return (
     <div>

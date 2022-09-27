@@ -1,4 +1,4 @@
-import headshot from "../assets/headshot.png"
+import headshot from "../assets/lower_res.png"
 import logo from "../assets/black_logo.png"
 
 const Header = () => {
