@@ -54,9 +54,10 @@ const Skills = () => {
         
         <div className="content_list">
         <h1 className="about_title3">Current Skill Development</h1> 
-          <p className="skill">C++</p>
-          <p className="skill">Angular</p>
           <p className="skill">Python (Skill-Building) </p>
+          <p className="skill">C++ (New Skill)</p>
+          <p className="skill">Angular (New Skill)</p>
+
         </div>
         </div>
         </div>

@@ -9,7 +9,7 @@ const Contact = () => {
     <div>
       <br></br>
     <div className="contact">
-      <h1 className="title_text"><a id="anchor_contact"></a>Contact & More</h1>
+      <h1 className="title_text"><a id="anchor_contact"></a>Connect with me</h1>
       <p className="contact_msg">Please contact me via email or LinkedIn. I would love to hear from you.</p>
       <p className="contact_msg"> If you like what you see here, take a deeper dive into my GitHub repos and download my resume.</p>
       <div className="contact_card">

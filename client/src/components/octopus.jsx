@@ -1,17 +1,26 @@
 import logo from "../assets/values_octo.png"
+import curiosity from "../assets/curiosity.png"
+import collaborate from "../assets/collaborate.png"
+import ci from "../assets/ci.png"
+import willing from "../assets/willing.png"
+import humble from "../assets/humble.png"
+import honest from "../assets/honest.png"
+import integrity from "../assets/integrity.png"
+import open from "../assets/open.png"
+
 const Octopus = () => {
   return (
     <div>
       <br></br>
       <div className="octopus">
-        <h1 className="title_text"><a id="anchor_octopus"></a>Values & Ethics</h1>
-        <h1 className="about_title">The Ethos of the Octopus...</h1>
-        <p className="content_text"> <em>What is up with the octopus logo?</em><br/>
-          The octopus is a beautifully fascinating animal. At the core of this magestic beast are the pillars of my personal philosophy on engineering, work, and just all of live in general.</p>
+        <h1 className="title_text"><a id="anchor_octopus"></a>Values & Philosophy</h1>
           <div className="octo_container">
             <img className="logo2" src={logo}/>
-            <p className="octo_text">versatile ◦ resourseful ◦ attentive ◦ resilient</p>
+            <p className="octo_text">versatile ◦ resourceful ◦ attentive ◦ resilient</p>
           </div>
+          <h1 className="about_title">The Ethos of the Octopus...</h1>
+        <p className="content_text"> <em>What is up with the octopus logo?</em><br/>
+          The octopus is a beautifully fascinating animal. At the core of this magestic beast are the pillars of my personal philosophy on engineering, work, and just all of live in general.</p>
         <p className="about_title2">Be Versatile</p>
         <p className="content_text2">
           The octopus can change its shape or color to match any environment—it is able to adjust to and handle even the most challenging situations <br/>
@@ -32,7 +41,14 @@ const Octopus = () => {
         <div className="values">
           <p className="value_header">Personal Values</p>
         <p className="content_text3">
-          Willingness to Learn &nbsp; | &nbsp; Continuous Improvement &nbsp; | &nbsp; Collaborationn &nbsp; | &nbsp; Openness &nbsp; | &nbsp; Honesty &nbsp; | &nbsp; Integrity
+        <div className="tooltip">Curiosity &nbsp; | &nbsp; <img className="tooltiptext" src={curiosity}/></div>
+        <div className="tooltip">Collaboration &nbsp; | &nbsp; <img className="tooltiptext" src={collaborate}/></div>
+        <div className="tooltip">Continuous Improvement &nbsp; | &nbsp; <img className="tooltiptext" src={ci}/></div>
+        <div className="tooltip">Willingness to Learn <img className="tooltiptext" src={willing}/></div> <br/>
+        <div className="tooltip">Humility &nbsp; | &nbsp; <img className="tooltiptext" src={humble}/></div>
+        <div className="tooltip">Honesty &nbsp; | &nbsp; <img className="tooltiptext" src={honest}/></div>
+        <div className="tooltip">Integrity &nbsp; | &nbsp; <img className="tooltiptext" src={integrity}/></div>
+        <div className="tooltip">Openness <img className="tooltiptext" src={open}/></div>
         </p>
       </div>
     </div>

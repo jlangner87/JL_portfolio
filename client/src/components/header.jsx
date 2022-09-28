@@ -11,6 +11,7 @@ const Header = () => {
       </div>
       <img className="headshot" src={headshot}/>
         <h1 className="headersub_text">Software Engineer</h1>
+        <p className="octo_text_head">versatile ◦ resourceful ◦ attentive ◦ resilient</p>
         <img className="logo" src={logo}/><br></br>
       
     </div>

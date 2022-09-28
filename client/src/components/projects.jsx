@@ -28,9 +28,12 @@ const Projects = () => {
           <img className='project_img' src={recipes}/>
           <p className='project_text'>Recipes For Me is a PERN stack application developed for a group project at General Assembly.</p>
           <p className='project_text'>On this project, I was responsible for the building the PSQL database and its models as well as constructing the Express/Node server and routes. I also designed the logo and styled the application with custom CSS.</p>
+          <a className='project_item' href='https://youtu.be/nLbX0npgjlw'>&#123;Demo&#125;</a><br/>
           <a className='project_item' href='https://obscure-reef-40887.herokuapp.com/'>&#123;Deployed Site&#125;</a><br/>
-          <a className='project_item' href='https://github.com/jengriffin/Recipes-For-Me-'>&#123;Code Repo: React App&#125;</a><br/>
+          <div className='dual_repo'>
+          <a className='project_item' href='https://github.com/jengriffin/Recipes-For-Me-'>&#123;Code Repo: React App&#125;</a>
           <a className='project_item' href='https://github.com/Aonmonomer/Recipe-For-Me-api'>&#123;Code Repo: API&#125;</a>
+          </div>
         </div>
         <div className="project_card">
           <h1 className='project_title_alice'>Rock Paper Scissors in Vue</h1>
