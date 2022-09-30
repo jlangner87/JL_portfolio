@@ -397,16 +397,6 @@ text-decoration: none;
   border-radius: 100%;
 }
 
-.project_img {
-  width: 580px;
-  height: 40%;
-  object-fit: contain;
-  box-shadow: 2px 4px 8px 1px #282C35;
-  overflow:hidden;
-  margin: 0 auto;
-  background-color: #282C35;
-}
-
 .dual_repo {
   width: 60% ;
   display: flex;
@@ -470,7 +460,6 @@ text-decoration: none;
   font-size: 18px;
   width: 80%;
   padding-left: 10PX
-
 }
 
 .project_text_footnote {
@@ -482,6 +471,17 @@ text-decoration: none;
   width: 80%;
   font-style: italic;
   padding-left: 10PX
+}
+
+.project_date {
+  background-color: #282C35;
+  color: #FFFFFF;
+  line-height: 160%;
+  font-size: 18px;
+  width: fit-content;
+  font-style: italic;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .project_item {
@@ -557,4 +557,14 @@ text-decoration: none;
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+.project_img {
+  width: 580px;
+  height: 40%;
+  object-fit: contain;
+  box-shadow: 2px 4px 8px 1px #282C35;
+  overflow:hidden;
+  margin: 0 auto;
+  background-color: #282C35;
 }
