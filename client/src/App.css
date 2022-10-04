@@ -109,6 +109,17 @@ body {
   margin-top: 10px;
 }
 
+.project_page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project_page_card {
+  width:75%;
+  background-color: #FFFFFF;
+}
+
 .footer {
   position: absolute;
   width: 100%;
@@ -405,8 +416,15 @@ text-decoration: none;
 }
 
 .project_card {
+  background-color: #fbf9fe;
   justify-content:left;
   padding: 20px;
+  margin: 30px;
+  box-shadow: 2px 4px 8px 1px #282C35;
+}
+
+.project_card:hover {
+  box-shadow: 2px 4px 8px 1px #282C35;
 }
 
 .project_title {
@@ -433,22 +451,12 @@ text-decoration: none;
   width: fit-content;
 }
 
-.scroll_instruction {
-  font-size: 18px;
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  background-color: #282C35;
-  color: #FFFFFF;
-  margin-bottom: 20px;
-  padding: 4px;
-
-}
 
 .carousel {
   display: flex;
   flex-direction: row;
-  overflow-x: auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 
 }
 
@@ -537,6 +545,13 @@ text-decoration: none;
   padding-top: 6px;
 }
 
+.home_icon {
+  width: 34px;
+  padding: 20px;
+  float: right;
+}
+
+
 .tooltip {
   position: relative;
   display: inline-block;
@@ -561,7 +576,7 @@ text-decoration: none;
 
 .project_img {
   width: 580px;
-  height: 40%;
+  height: 580px;
   object-fit: contain;
   box-shadow: 2px 4px 8px 1px #282C35;
   overflow:hidden;

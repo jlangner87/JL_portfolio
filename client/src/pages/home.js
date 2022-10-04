@@ -10,13 +10,13 @@ import Octopus from '../components/octopus'
 const Home = () => {
   return (
     <div className="home">
-      {/* <Header /> */}
       <div>
+        <Header />
         <Nav />
       </div>
       <About />
-      <Skills />
       <Projects />
+      <Skills />
       <Octopus />
       <Contact />
       <Footer />
