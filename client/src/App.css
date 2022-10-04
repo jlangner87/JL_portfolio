@@ -523,13 +523,11 @@ text-decoration: none;
   width: fit-content;
 }
 
-
 .carousel {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
 }
 
 .project_text {
@@ -662,11 +660,19 @@ text-decoration: none;
 }
 
 .project_img {
-  width: 580px;
-  height: 580px;
+  width: 480px;
+  height: 480px;
   object-fit: contain;
   box-shadow: 2px 4px 8px 1px #282C35;
   overflow:hidden;
   margin: 0 auto;
   background-color: #282C35;
+}
+
+.family {
+  width: 800px;
+}
+
+.family_container {
+  text-align: center;
 }
