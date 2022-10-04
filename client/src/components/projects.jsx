@@ -16,7 +16,7 @@ const Projects = () => {
         <div className='carousel'>
         <div className="project_card">
           <HashLink to='/wikibean/#top'>
-          <img className='home_icon' src={more}/>
+          <img className='more_icon' src={more}/>
             <h1 className='project_title'>WikiBean</h1>
 
             <img className='project_img' src={mock}/>
@@ -25,7 +25,7 @@ const Projects = () => {
       </div>
         <div className="project_card">
           <HashLink to='/recipes_for_me/#top'>
-          <img className='home_icon' src={more}/>
+          <img className='more_icon' src={more}/>
           <h1 className='project_title'>Recipes For Me</h1>
           <img className='project_img' src={recipes}/>
           <p className='project_date'>August 2022</p>
@@ -33,7 +33,7 @@ const Projects = () => {
         </div>
         <div className="project_card">
         <HashLink to='/rpg_dice/#top'>
-        <img className='home_icon' src={more}/>
+        <img className='more_icon' src={more}/>
           <h1 className='project_title_alice'>Dice Roller in React</h1>
           <img className='project_img' src={dice}/>
           <p className='project_date'>September 2022- Ongoing</p>
@@ -41,7 +41,7 @@ const Projects = () => {
         </div>
         <div className="project_card">
           <HashLink to='/rps/#top'>
-          <img className='home_icon' src={more}/>
+          <img className='more_icon' src={more}/>
           <h1 className='project_title_alice'>Rock Paper Scissors in Vue</h1>
           <img className='project_img' src={rps}/>
           <p className='project_date'>August 2022</p>
@@ -49,7 +49,7 @@ const Projects = () => {
      </div>
         <div className="project_card">
           <HashLink to='/alice_python/#top'>
-          <img className='home_icon' src={more}/>
+          <img className='more_icon' src={more}/>
           <h1 className='project_title_alice'>Alice's Adventures in Python</h1>
           <img className='project_img' src={alice}/>
           <p className='project_date'>August 2022</p>
@@ -57,7 +57,7 @@ const Projects = () => {
         </div>
         <div className="project_card">
           <HashLink to='/my_portfolio/#top'>
-          <img className='home_icon' src={more}/>
+          <img className='more_icon' src={more}/>
           <h1 className='project_title'>This Portfolio</h1>
           <img className='project_img' src={portfilio}/>
           <p className='project_date'>July 2022- Ongoing</p>
