@@ -644,7 +644,20 @@ text-decoration: none;
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 480px;
+  width: 280px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  background-color: #f1ecf7;
+  border: 2px solid #282C35;
+  border-radius: 6%;
+  position: absolute;
+  z-index: 2;
+}
+
+.tooltip .tooltiptext2 {
+  visibility: hidden;
+  width: 280px;
   top: 100%;
   left: 50%;
   margin-left: -60px;
