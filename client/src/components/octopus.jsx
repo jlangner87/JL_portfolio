@@ -45,10 +45,10 @@ const Octopus = () => {
         <div className="tooltip">Collaboration &nbsp; | &nbsp; <img className="tooltiptext" src={collaborate}/></div>
         <div className="tooltip">Continuous Improvement &nbsp; | &nbsp; <img className="tooltiptext" src={ci}/></div>
         <div className="tooltip">Willingness to Learn <img className="tooltiptext" src={willing}/></div> <br/>
-        <div className="tooltip">Humility &nbsp; | &nbsp; <img className="tooltiptext" src={humble}/></div>
-        <div className="tooltip">Honesty &nbsp; | &nbsp; <img className="tooltiptext" src={honest}/></div>
-        <div className="tooltip">Integrity &nbsp; | &nbsp; <img className="tooltiptext" src={integrity}/></div>
-        <div className="tooltip">Openness <img className="tooltiptext" src={open}/></div>
+        <div className="tooltip2">Humility &nbsp; | &nbsp; <img className="tooltiptext" src={humble}/></div>
+        <div className="tooltip2">Honesty &nbsp; | &nbsp; <img className="tooltiptext" src={honest}/></div>
+        <div className="tooltip2">Integrity &nbsp; | &nbsp; <img className="tooltiptext" src={integrity}/></div>
+        <div className="tooltip2">Openness <img className="tooltiptext" src={open}/></div>
         </p>
       </div>
     </div>

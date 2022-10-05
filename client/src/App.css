@@ -642,6 +642,11 @@ text-decoration: none;
   display: inline-block;
 }
 
+.tooltip2 {
+  position: relative;
+  display: inline-block;
+}
+
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 280px;
@@ -655,7 +660,7 @@ text-decoration: none;
   z-index: 2;
 }
 
-.tooltip .tooltiptext2 {
+.tooltip2 .tooltiptext {
   visibility: hidden;
   width: 280px;
   top: 100%;
@@ -669,6 +674,10 @@ text-decoration: none;
 }
 
 .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip2:hover .tooltiptext {
   visibility: visible;
 }
 
