@@ -3,6 +3,7 @@ import email from '../assets/email.png'
 import linkedin from '../assets/LinkedIn.png'
 import resume from '../assets/resume.png'
 import pdf from '../assets/Joshua_Langner.pdf'
+import youtube from '../assets/youtube.png'
 
 const Contact = () => {
   return (
@@ -24,7 +25,10 @@ const Contact = () => {
         <a href="https://github.com/jlangner87">
           <img className="logos" src={github}/>
           <p className='contact_item'>GitHub</p>
-
+        </a>
+        <a href="https://www.youtube.com/channel/UCQGVw18qWx3C6A3o0h7lspA">
+          <img className="logos" src={youtube}/>
+          <p className='contact_item'>YouTube</p>
         </a>
         <a href={pdf} download>
           <img className='logos' src={resume}/>
