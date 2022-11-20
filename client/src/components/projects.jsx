@@ -4,6 +4,7 @@ import alice from '../assets/alice.png'
 import portfilio from '../assets/this.png'
 import rps from '../assets/rps.png'
 import dice from '../assets/diceMock.png'
+import lindsay from '../assets/teamlindsay.png'
 import more from '../assets/more.png'
 import { HashLink } from 'react-router-hash-link'
 
@@ -14,6 +15,15 @@ const Projects = () => {
       <div className="projects">
         <h1 className="title_text"><a id="anchor_projects"></a>Projects</h1>
         <div className='carousel'>
+        <div className="project_card">
+          <HashLink to='/team_lindsay/#top'>
+          <img className='more_icon' src={more}/>
+            <h1 className='project_title'>Team Lindsay</h1>
+
+            <img className='project_img' src={lindsay}/>
+            <p className='project_date'>October 2022</p>
+          </HashLink>
+      </div>
         <div className="project_card">
           <HashLink to='/wikibean/#top'>
           <img className='more_icon' src={more}/>
